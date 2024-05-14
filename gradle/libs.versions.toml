@@ -1,0 +1,40 @@
+[versions]
+agp = "8.5.0-beta01"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+navigationCommon = "2.8.0-alpha08"
+drawerlayout = "1.2.0"
+cardview = "1.0.0"
+adapters = "3.2.0-alpha11"
+lifecycleCommon = "2.8.0-rc01"
+roomCommon = "2.6.1"
+preference = "1.2.1"
+recyclerview = "1.4.0-alpha01"
+sqlite = "2.5.0-alpha01"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version = "1.12.0" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigation-common = { group = "androidx.navigation", name = "navigation-common", version.ref = "navigationCommon" }
+drawerlayout = { group = "androidx.drawerlayout", name = "drawerlayout", version.ref = "drawerlayout" }
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+adapters = { group = "androidx.databinding", name = "adapters", version.ref = "adapters" }
+lifecycle-common = { group = "androidx.lifecycle", name = "lifecycle-common", version.ref = "lifecycleCommon" }
+room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+sqlite = { group = "androidx.sqlite", name = "sqlite", version.ref = "sqlite" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
